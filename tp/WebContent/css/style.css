@@ -1,0 +1,248 @@
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+main a:link , main a:hover, main a:active,main a:visited {
+    color: black;
+}
+
+#infoprod{
+	padding-top:100px;
+
+}
+#infoprod div{
+	display:inline-block;
+		float:left;
+		
+
+}
+
+#infoprod div img{
+	width:100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #333;
+}
+
+nav ul li p{
+	color:white;
+	text-align: center;
+	padding:0px 10px;
+
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li:last-child,
+nav ul li:nth-last-child(2){
+	float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+body{
+	margin:0;
+	padding:0;
+}
+nav {
+	
+	margin:auto;
+}
+.imgprincipal{
+	width: 100%;
+	position:relative;
+    margin: auto;
+    text-align:center;
+}
+
+.imgprincipal img{
+	width: 100%;
+    max-height: 100%;
+	z-index:-10;
+
+}
+
+.imgprincipal p{
+	position:absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    height:5vw;
+    font-size:4vw;
+   	border-style: solid;
+    border-width: 3px;
+    width:50%;
+    transition: background-color 0.8s ease;
+      background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,0.5)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,0.5)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,0.5)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.5));
+}
+.imgprincipal p:hover{
+	background-color:rgba(51, 51, 51 ,0.8);
+}
+
+.imgprincipal div{
+	display:inline-bloc;
+	width:20px;
+}
+
+
+.shopindex img{
+	width:100%;
+}
+.shopindex{
+	padding:10px 10px;
+	margin:10px 10px;
+	border-style: solid;
+    border-width: 5px;
+	list-style-type: none;
+}
+#shopbox{
+	   margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+#shopbox div{
+	display: inline;
+	width:33%;
+	float:left;
+}
+.shopindex li:nth-child(3){
+	font-size:10px;
+	color:#a6a6a6;
+}
+
+#basket{
+	padding-top:100px;
+}
+
+#login,#reg{
+	padding-top:100px;
+}
+h2 {
+	padding-top:100px;
+	 text-align: center;
+}
+.icon img{
+	width:40px;
+	height:40px;
+
+}
+.icon{
+	padding:5px 5px;
+}
+.icon:hover{
+	
+}
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: #111;
+}
+#myInput {
+    border-box: box-sizing;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+/*css du footer*/
+footer {
+    clear: both;
+    height: inherit;
+    background-color:  rgba(47,52,57,.99);
+    border-top: 2px solid #2F3436;
+    overflow: hidden;
+    color: white;
+}
+footer >div{
+		background-color:rgb(51, 51, 51);;
+}
+footer div  {
+    float: left;
+    text-align:left;
+}
+
+footer div {
+    text-align: center;
+}
+footer img {
+    margin: 20px;
+}
+/*fin css du footer*/
+
+/*col css*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*fin col*/
